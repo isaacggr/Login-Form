@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("space.jpg");
+  background-image: url("./assets/space.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@ body {
 
 main.container {
   background: #ffffff95;
-  max-width: 350px;
+  max-width: 650px;
   min-height: 6vh;
   padding: 2rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
