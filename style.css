@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("./assets/space.jpg");
+  background-image: url("./assets/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,11 +23,11 @@ body {
 
 main.container {
   background: #ffffff95;
-  max-width: 650px;
-  min-height: 6vh;
-  padding: 2rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+  width: 250px;
+  margin: 10px auto 0px;
+  padding: auto;
+
 }
 
 main h2 {
