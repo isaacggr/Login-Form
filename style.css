@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("./assets/background2.jpg");
+  background-image: url("./assets/Background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,119 +21,106 @@ body {
   justify-content: center;
 }
 
-main.container {
-  background: #ffffff95;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  width: 250px;
-  margin: 10px auto 0px;
-  padding: auto;
-
-}
-
-main h2 {
-  font-weight: 700;
-  color: #272262;
-  position: relative;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-field {
-  position: relative;
-}
-
-form .input-field:first-child {
-  margin-bottom: 0.8rem;
-}
-
-.input-field .underline {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 100%;
-  bottom: -5px;
-  left: 0%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.input-field input {
-  outline: none;
-  font-size: 1rem;
-  color: rgba(0, 0, 0, 0.9);
-  background-color: transparent;
-}
-
-.input-field input::placeholder {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-form input[type="submit"] {
-  margin-top: 0.9rem;
-  padding: 0.4rem;
-  background: linear-gradient(
-    to left,
-    rgba(27, 157, 157, 1) 7%,
-    rgba(11, 32, 27, 1) 90%
-  );
-  cursor: pointer;
+#wrapper {
+  width: 420px;
+  background: purple;
   color: white;
-  font-size: 0.9rem;
-  font-weight: 300;
-  border-radius: 4px;
-  transition: all 0.9s ease;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
 }
 
-form input[type="submit"]:hover {
-  letter-spacing: 0.6px;
-  background: linear-gradient(
-    to right,
-    rgba(27, 157, 157, 1) 7%,
-    rgba(11, 32, 27, 1) 90%
-  );
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.7rem;
-}
-
-.footer span {
-  color: rgba(0, 0, 0, 0.9);
+#wrapper h1 {
+  font-size: 36px;
   text-align: center;
-  font-size: 0.9rem;
 }
 
-.footer .social-field {
-  padding: 0.2rem;
-  font-size: 0.9rem;
+#wrapper .input-box {
+  position: relative;
   width: 100%;
-  cursor: pointer;
-  margin-top: 0.7rem;
+  height: 50px;
+  margin: 30px 0;
 }
 
-.footer .social-field a i {
-  margin: 0 0.5rem;
-  width: 15px;
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
 }
 
-.footer .social-field a {
-  text-decoration: none;
+.input-box input::placeholder {
   color: white;
 }
 
-.footer .social-field.github {
-  background: linear-gradient(
-    to right,
-    rgba(20, 24, 43, 1) 31%,
-    rgba(41, 66, 54, 1) 100%
-  );
-  border-radius: 4px;
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 25%;
+  transform: translate(-15%);
+  font-size: 20px;
 }
 
-.footer .social-field.facebook {
-  background: linear-gradient(to right, #1e3c74, #2a5298);
+#wrapper .remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: auto;
+}
+
+#wrapper .remember label {
+  margin-right: auto;
+  margin-left: 3px;
+}
+
+#wrapper .remember input {
+  accent-color: white;
+  margin-right: 3px;
+}
+
+.remember a {
+  color: white;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+.remember a:hover {
+  text-decoration: underline;
+}
+
+#wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+#wrapper .register-account {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-account p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-account p a:hover {
+  text-decoration: underline;
 }
