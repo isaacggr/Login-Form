@@ -5,7 +5,7 @@ Desenvolvido para apresentar meus conceitos de Programação.
 
 ## Resultado Final
 
-<p align="center">
+<p alig="center">
 <img alt="Projeto" src="./assets/preview.jpg">
 # 🚀 Decolando!
 
