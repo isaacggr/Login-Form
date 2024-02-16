@@ -7,7 +7,8 @@ Desenvolvido para apresentar meus conceitos de Programação.
 
 <p alig="center">
 <img alt="Projeto" src="./assets/preview.jpg"> <br />
-# 🚀 Decolando!
+
+## 🚀 Decolando!
 
 Para iniciar o projeto, basta abrir o arquivo <br /> `index.html` em seu navegador
 
