@@ -124,3 +124,15 @@ body {
 .register-account p a:hover {
   text-decoration: underline;
 }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 16;
+}
+
+#footer a{
+  color: white;
+  font-weight: 500;
+}
