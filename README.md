@@ -13,4 +13,4 @@ Desenvolvido para apresentar meus conceitos de Programação.
 Para iniciar o projeto, basta abrir o arquivo <br /> `index.html` em seu navegador
 
 ---
-##### Codificado por Isaac Gregorio 👨‍💻
+##### Codificado por Isaac de sousa Gregorio 👨‍💻
